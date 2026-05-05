@@ -13,7 +13,7 @@ public class HelloController {
 
 
    @GetMapping("/hdd")
-    public String helo() {
+    public String hedlo() {
         return "Hello World i will  from Sprindfdfg Boot 🚀";
     }
     
