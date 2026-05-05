@@ -51,5 +51,14 @@ public class HelloController {
     }
     
     
+
+    @GetMapping("/weome")
+    public String wome() {
+        return "Welcome to our Spring Boot API 👋";
+    }
+    
+    
+    
+    
 }
 
