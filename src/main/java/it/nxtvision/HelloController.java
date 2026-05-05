@@ -22,5 +22,34 @@ public class HelloController {
     public String helo() {
         return "Hello World from Sprindfdfg Boot 🚀";
     }
+    
+    @GetMapping("/dfd")
+    public String heldo() {
+        return "Hello World from Sprindfdfg Boot 🚀";
+    }
+    
+    
+
+    @GetMapping("/status")
+    public String status() {
+        return "Application is running successfully ✅";
+    }
+
+    @GetMapping("/health")
+    public String health() {
+        return "OK - Service Healthy 💚";
+    }
+
+    @GetMapping("/version")
+    public String version() {
+        return "Spring Boot Version API v1.0.0 📦";
+    }
+
+    @GetMapping("/welcome")
+    public String welcome() {
+        return "Welcome to our Spring Boot API 👋";
+    }
+    
+    
 }
 
