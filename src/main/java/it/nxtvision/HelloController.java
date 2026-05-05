@@ -12,7 +12,10 @@ public class HelloController {
     }
 
 
-
+   @GetMapping("/hdd")
+    public String helo() {
+        return "Hello World i will  from Sprindfdfg Boot 🚀";
+    }
     
     
     @GetMapping("/hdf")
