@@ -42,4 +42,10 @@ public class DemoController {
     public String delete() {
         return "Delete API called (DELETE) ❌";
     }
+    
+    @DeleteMapping("/d")
+    public String dlete() {
+        return "Delete API cadlsdllled (DELETE) ❌";
+    }
 }
+
